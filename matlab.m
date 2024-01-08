@@ -1,0 +1,14 @@
+clear all;
+clc;
+A=[2 -4 6 -8; 1 3 5 7; 2 12 30 56];
+fprintf('the matrix A is\n');
+disp(A);
+fprintf('(i)the element y1 is \n');
+y1=A(:,1);
+disp(y1);
+fprintf('(ii) the element y2 is \n');
+y2=A(1,:);
+disp(y2);
+fprintf('(iii) the element y3 is \n');
+y3=A(2,:);
+disp(y3);
